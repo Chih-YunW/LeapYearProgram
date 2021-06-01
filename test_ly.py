@@ -9,6 +9,9 @@ def test_divisible_by_4_not_100():
 def test_divisible_by_4_100_and_400():
         value = (2400)
         assert leapYear.leapYear(value) == "It is a leap year"
+def test_divisible_by_4_100_not_400():
+        value = (2500)
+        assert leapYear.leapYear(value) == "It is not a leap year"
 
 
 
