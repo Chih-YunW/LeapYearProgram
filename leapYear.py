@@ -4,3 +4,6 @@ def leapYear(year):
 	else:
 		if(year%100) != 0:
 			return "It is a leap year"
+		else:
+			if(year%400) == 0:
+				return "It is a leap year"
